@@ -54,7 +54,8 @@
 #define DAC_BASE			(PERIPH_BASE_APB1 + 0x7400)
 #define I2C3_BASE			(PERIPH_BASE_APB1 + 0x7800)
 #define LPTIM1_BASE			(PERIPH_BASE_APB1 + 0x7c00)
-
+/* Added support for USART4 */
+#define USART4_BASE 			(PERIPH_BASE_APB1 + 0x4c00)
 
 /* APB2 */
 #define SYSCFG_BASE			(PERIPH_BASE_APB2 + 0x0000)
